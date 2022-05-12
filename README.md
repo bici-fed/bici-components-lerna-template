@@ -1,33 +1,21 @@
-# bici-wui
+# bici-components-lerna-template
 
-## Getting Started
+## 说明
 
-Install dependencies,
+这是一个基于dumi、lerna多包管理的react组件库模版项目，使用的时候最好重命名，并对dumi和lerna有所了解
 
 ```bash
-$ npm i
+$ git clone https://github.com/bici-fed/bici-components-lerna-template.git bici-components
 ```
 
-Start the dev server,
+### 1、安装依赖
 
 ```bash
-$ npm start
+$ yarn
 ```
 
-Build documentation,
+### 2、启动
 
 ```bash
-$ npm run docs:build
-```
-
-Run test,
-
-```bash
-$ npm test
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
+$ yarn start
 ```
